@@ -1,0 +1,9 @@
+[submodule "MVVM.Core"]
+	path = MVVM.Core
+	url = https://github.com/aliagamon/MVVM.Core.git
+[submodule "MVVM.Binding"]
+	path = MVVM.Binding
+	url = https://github.com/aliagamon/MVVM.Binding.git
+[submodule "MVVM.Extentions"]
+	path = MVVM.Extentions
+	url = https://github.com/aliagamon/MVVM.Extentions.git
