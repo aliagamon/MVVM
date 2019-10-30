@@ -7,3 +7,6 @@
 [submodule "MVVM.Extentions"]
 	path = MVVM.Extentions
 	url = https://github.com/aliagamon/MVVM.Extentions.git
+[submodule "MVVM.Extention"]
+	path = MVVM.Extention
+	url = https://github.com/aliagamon/MVVM.Extention.git
