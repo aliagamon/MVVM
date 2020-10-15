@@ -12,4 +12,26 @@ It's have Binding Debugger for debugging all these reactive binds in edit mode o
 
 It also have a Localization Service supporting both JSON and CSV files as translation table.
 
+## How to install
+### Git Submodule
+If your project is a git repository easiest way to installing it is by submoduling, Go to root of your project and run these commands to clone this repository and all it's submodules in Assets/Scripts/MVVM directory and you are done.
+```
+git submodule add https://github.com/rzvxa/MVVM.git Assets/Scripts/MVVM
+git submodule update --init --recursive
+```
+### Git Clone
+If you don't like submoduling this repository then you can use this.
+```
+git clone https://github.com/rzvxa/MVVM.git Assets/Scripts/MVVM
+cd Assets/Scripts/MVVM
+git submodule update --init --recursive
+```
+## Dependencies
+Here is a list of all Third-Party libs that i'm using for (Unity)MVVM framework make sure that you have all of them in place and reference them in assembely definition.
+* DryIoc
+* rotorz reorderable list
+* UniRx
+* UniTask
+* Newtonsoft.Json
+
 There is no documentation yet, But i've used this in quite a lot of commercial projects. I will add documentation later myself but any contribution is welcomed.
